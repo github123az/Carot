@@ -1,10 +1,10 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/github123az/Kh-i-hub-/main/T%C3%AAn%20Hub.lua.txt))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/github123az/Kh-i-hub-/main/T%C3%AAn%20Hub.lua.txt
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "khôi Hub",
-    SubTitle = "by atuankhoiMods",
+    SubTitle = "by Atuan Mods",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -2312,7 +2312,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-ImageButton.Image = "rbxassetid://16119106578   "
+ImageButton.Image = "rbxassetid://16119106578"
 
 UICorner.CornerRadius = UDim.new(0, 30)
 UICorner.Parent = ImageButton
